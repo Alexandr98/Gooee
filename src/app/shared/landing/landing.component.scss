@@ -2,7 +2,7 @@
 
 
 .wrapper-video{
-  height: 3900px;
+  height: 4500px;
   background-color:#004680;
   overflow: hidden;
   position: relative;
@@ -22,6 +22,30 @@
     font-size: 80px;
     font-family: $LatoBold;
     color: #ffffff;
-    padding-top: 370px;
+    margin: 370px 0 315px 0;
+  }
+  .video{
+    margin-top: 280px;
+  }
+  .subtext-video{
+    font-family: $RobotoThin;
+    font-size: 58px;
+    font-weight: 100;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    line-height: 2em;
+    margin: 0 160px 0 160px;
+    .column-one{
+      width: 3250px;
+      margin-right: 100px;
+      text-align: right;
+    }
+    .column-two{
+      .first-text{
+        margin-bottom: 130px;
+      }
+    }
   }
 }
